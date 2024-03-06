@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <h1>ToDo List</h1>
+        <div class="action-container">
+            <!-- <div class="radio-inputs">
+                <label class="radio">
+                    <input id="select-add" type="radio">
+                    <span class="name">ADD</span>
+                </label>
+                <label class="radio">
+                    <input id="select-search" type="radio">
+                    <span class="name">SEARCH</span>
+                </label>
+            </div> -->
+            <div id="add-container" class="action_list-container">
+                <input placeholder="Add post.." id="add-post-input" type="text">
+                <button id="add-post-button">Add post</button>
+            </div>
+            <div id="add-container" class="hide">
+                <input placeholder="Search.." id="search-input" type="text">
+            </div>
+            <ol id="todo-container"></ol>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
